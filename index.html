@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Data &amp; Info Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h3>Real-time Data &amp; Info</h3>
+    </header>
+    <main>
+        <section>
+            <img class="display-image" src="https://ca.slack-edge.com/T05FFAA91JP-U05SB95P9LG-c1c139a4ac66-512" alt="Diana Nnaemeka" data-testid="slackDisplayImage">
+            <h3 class="username" data-testid="slackUserName">Diana Nnaemeka</h3>
+            
+            <div class="track">
+                <p data-testid="myTrack">Front-End</p>
+            </div>
+            
+            <div class="date">
+                <p><span data-testid="currentDayOfTheWeek"></span></p>
+                <p><span data-testid="currentUTCTime"></span></p>
+            </div>
+            
+            <a href="https://github.com/dev-diana" data-testid="githubURL">
+                <button class="github-repo">GITHUB REPO</button>
+            </a>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
